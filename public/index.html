@@ -1,0 +1,192 @@
+<!-- LA ESTRUCTURA BÁSICA DE UN SITIO WEB -->
+<!-- Cómo crearlo rápido : ! o con html:5 -->
+<!-- En HTML siempre van a haber etiquetas de apertura y cierre -->
+<!-- como comentar más rápido - ctrl + } -->
+
+<!-- Tipo de documento HTML -->
+<!DOCTYPE html>
+
+<!-- Lenguaje del sitio web -->
+<html lang="es">
+
+<!-- HEAD es donde se agrega información no visible del sitio web pero que es importante para su funcionamiento -->
+
+<head>
+    <!-- Admite caracteres especiales como @¨*´, etc -->
+    <meta charset="UTF-8">
+    <!-- Permite que el sitio web se pueda ver después en otros dispositivoscomo pc o tablet -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- Link para usar íconos de boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Link de los estilos -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./Styles/index.css">
+    <link rel="shortcut icon" href="/assets/favicon.jpg" type="image/x-icon">
+    <!-- Título de la página que aparece en el navegador -->
+    <title>Wolf Hamburguer</title>
+</head>
+
+
+<!-- BODY es el cuerpo del sitio web, acá se agregan los elementos visibles del sitio web -->
+
+<body>
+
+    <!-- 
+<nav>
+    <li><a href="/comoLlegar.html">Como llegar</a></li>
+    <li><a href="/retos.html">Retos</a></li>
+    <li><a href="https://www.instagram.com/wolfburger/">Redes Sociales</a></li>
+
+</nav> -->
+
+    <!-- INICIO DE CARRUSEL-->
+    <!-- FIN DE CARRUSEL-->
+
+
+    <!-- ETIQUETAS SEMÁNTICAS - ME DAN INFORMACIÓN DEL CONTENIDO DE MI SITIO WEB -->
+
+
+    <!-- HEADER es el encabezado del sitio web -->
+    <header>
+
+        <!-- NAV Etiqueta para menú de navegación -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img class="milogo" src="./assets/loboLOGO.jpeg" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./comoLlegar.html">como llegar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./retos.html">Retos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Menú</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner miCarrusel">
+                <div class="carousel-item active">
+                    <img src="./assets/banner1.jpg" class="d-block w-100" alt="banner1">
+                </div>
+                <div class="carousel-item">
+                    <img src="/assets/banner2.jpg" class="d-block w-100" alt="banner2">
+                </div>
+                <div class="carousel-item">
+                    <img src="/assets/banner3.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <section class="banner"></section>
+        <!-- IMG Etiqueta para imágenes -->
+        <img class="imagen" src="/assets/baner.webp" alt="baner">
+        </section>
+    </header>
+
+
+    <!-- MAIN Etiqueta dentro de la cuál va el contenido de la página -->
+    <main>
+
+        <!-- Sección de información 1 -->
+        <section class="informacion1">
+            <!-- H1 Etiqueta para título principal, sólo debe haber uno por página -->
+            <h1 class="titulo">WOLF Burguer House By ZonaS</h1>
+
+            <!-- ARTICLE Etiqueta para contener información -->
+            <article class="contenedorInformacion">
+                <!-- P Etiqueta para escribir párrafos o textos diferentes a títulos -->
+                <p>Wolf Burguer es la creación de un grupo de amantes de la comida rapida hecha con la creatividad y la
+                    pasión que solo los amantes de la buena comida pueden brindar, para la preparación se ofrecen
+                    alimentos exclusivamente forjados en nuestras instalaciones lo que nos hace el único sitio que
+                    entrega una serie de hermosas y deliciosas hamburguesas diseñadas especialmente para ti y tu familia
+                </p>
+
+
+                <img class src="video" alt="video reto">
+
+            </article>
+
+        </section>
+
+        <!-- Sección de información 2 -->
+        <section class="informacion2">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/yBgNcKLrkQ8?si=c9FbkEnfXuJSlQSr"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+            <!-- H2 Etiqueta para títulos -->
+            <h2 class="titulo">"La MEGA VIKINGA"</h2>
+            <article class="contenedor-vikinga">
+
+                <img class="logo" src="./assets/Lobo3.jpeg" alt="logo">
+                <article class="contenedorInformacion">
+
+
+                    <!-- P Etiqueta para escribir párrafos o textos diferentes a títulos -->
+                    <p>Nuestra Hamburguesa Vikinga esta pensada especialmente para valientes, amantes de la buena
+                        Hamburguer, si eres un feroz y desenfrenado amante de la buena comida, atrevete a probar esta
+                        maravilla pensada especialmente para ganadores, visita en nuestro Navegador la sección de Retos
+                        y enterate como alimentar tu "Hambre salvaje" totalmente Gratis..... Te esperamos.
+                    </p>
+                </article>
+            </article>
+
+            <!-- ARTICLE Etiqueta para contener información -->
+        </section>
+
+    </main>
+
+    <!-- FOOTER Etiqueta dentro de la cual va el pie de página del sitio web -->
+    <footer>
+
+        <!-- ETIQUETAS NO SEMÁNTICAS -->
+
+        <!-- DIV etiquetas que pueden contener cualquier tipo de información se usan como divisores de contenido-->
+        <div class="contacto">
+            <ul class="lista">
+                <!-- I Etiqueta para íconos -->
+                <li> <i class='bx bxs-phone-call'></i>318 666 1694</li>
+                <li><i class='bx bxl-instagram bx-tada'></i>wolfburguer_ibg</li>
+                <li> Creado By: Juan Carlos Gómez S. </li>
+
+            </ul>
+        </div>
+
+
+
+        <!-- para comentar o CTRL + ]-->
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

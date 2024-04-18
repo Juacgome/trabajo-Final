@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
+    font-family:  "Oswald", sans-serif;
+
+}
+
+
+
+
+body{
+    background-color: rgb(189, 189, 241);
+}
+.milogo{
+    width: 100px;
+    
+}
+.misRetos{
+    width: 60%;
+    margin: 100px auto;
+
+font-size: 50px;
+}
+
+.contenedor-retos{
+    display: flex;
+    padding: 30px;
+    gap: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.titulo-retos{
+    font-size: 40px;
+    
+}
+.descripcion-retos{
+    font-size: 25px;
+
+}
+footer{
+    padding: 30px;
+
+}
+footer ul{
+    text-align: start;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+
+}
