@@ -1,19 +1,105 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    <h1>Soy la pagina de registro</h1>
+    <h1>BIENVENIDO A LA PAGINA DE REGISTRO</h1>
 
+<P> A continuación indicanos tu información</P>
+
+
+    <!-- soy el navegador-->
+    <header>
+
+        <!-- NAV Etiqueta para menú de navegación -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img class="milogo" src="./assets/loboLOGO.jpeg" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="./retos.html">Retos</a>
+                        </li>
+                       
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
 <!--esta pagina debe tener:
 -un formulario de registro
 - preguntar al usuario su nombre completo
 - preguntar al usuario su correo electronico
 - preguntar al usuario su contraseña
 - Un boton de Registrar-->
+<section>
+
+    <h3>PAGINA DE REGISTRO</h3>
+<p> Para continuar a continuación completa la información solicitada</p>
+
+    <label>¿Cual es su Nombre?</label>
+    <!--label, es el que hace que aparezca la pregunta antes del rectangulo donde el usuario coloca la edad-->
+    <input type="text" id="nombre" 
+    placeholder="Ingrese su Nombre">
+        
+    <label>¿Cual es su edad?</label>
+    <!--label, es el que hace que aparezca la pregunta antes del rectangulo donde el usuario coloca la edad-->
+    <input type="number" id="edadInput" 
+    placeholder="Ingrese su edad">
+    
+    <label>¿Cual es su correo electronico?</label>
+    <!--label, es el que hace que aparezca la pregunta antes del rectangulo donde el usuario coloca la edad-->
+    <input type="text" id="correoInput" 
+    placeholder="Ingrese su correo electronico">
+
+    <button onclick="verificar()">verificar</button>
+          
+<span id="mensaje"></span>
+
+
+
+
+</section>
+
+
+
+
+
+
+<!--soy el footer-->
+
+<footer>
+
+    <!-- ETIQUETAS NO SEMÁNTICAS -->
+
+    <!-- DIV etiquetas que pueden contener cualquier tipo de información se usan como divisores de contenido-->
+    <div class="contacto">
+        <ul class="lista">
+            <!-- I Etiqueta para íconos -->
+            <li> <i class='bx bxs-phone-call'></i>318 666 1694</li>
+            <li><i class='bx bxl-instagram bx-tada'></i>wolfburguer_ibg</li>
+            <li> Creado By: Juan Carlos Gómez S. </li>
+
+        </ul>
+    </div>
+
+
+
+    <!-- para comentar o CTRL + ]-->
+
+</footer>
+
 
 </body>
 </html>
