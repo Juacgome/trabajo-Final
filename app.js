@@ -16,7 +16,7 @@ dotenv.config();
 conexionMongo();
 
 // 3. ESTABLECER LA CONECCION CON NUESTRO FRON
-const rutaPublica = path.join(process.cwd(),"public");
+const rutaPublica = path.join(process.cwd(),'public');
 app.use(express.static(rutaPublica));
 
 app.use(express.json());
@@ -32,5 +32,5 @@ app.get('/',(req,res) =>{
 //4.INICIALIZAMOS EL SERVIDOR
 
 app.listen(puerto, () => {
-    console.log(`hola soy Juan,El servidor está escuchando en http://localhost:${puerto}`); 
+    console.log('hola soy Juan,El servidor está escuchando en http://localhost:${puerto}'); 
 });

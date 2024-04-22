@@ -1,5 +1,5 @@
 // importamos las dependencias que necesitamos.
-import mongoose from "mongoose";
+import mongoose from 'mongoose';
 // crear una funcion que nos conecta la base de datos
 
 const conexionMongo = async() => {
@@ -8,9 +8,9 @@ const conexionMongo = async() => {
 
     // control de errores con try - Catch
     try{
-        console.log("conexion exitosa");
+        console.log('conexion exitosa');
     } catch(error){
-        console.log("error de conexion:", error.message);
+        console.log('error de conexion:', error.message);
     }
     
 }
