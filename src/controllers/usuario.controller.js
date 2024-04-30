@@ -1,5 +1,4 @@
 // importamos dependencias -> lo que necesitemos para el funcionamiento del codigo
-import usuarioModel  from "../models/usuario.model.js";
 
 
 
@@ -12,7 +11,6 @@ DELETE -> Me elimina mis usuarios
 
 */
 
-** CONTROLLERS**
 
 //importamos dependencias -> lo que necesitemos para el funcionamiento del código
 

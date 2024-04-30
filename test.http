@@ -1,12 +1,7 @@
-### Obtener todos los usuarios
-GET ** PETICIONES EN test.http ***
 
-**OJO, Modifican el puerto **
 
-### Obtener todos los usuarios
-** PETICIONES EN test.http ***
 
-**OJO, Modifican el puerto **
+
 
 ### Obtener todos los usuarios
 GET http://localhost:9000/api/obtenerUsuario

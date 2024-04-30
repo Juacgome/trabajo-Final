@@ -12,7 +12,7 @@ const usuarioRouter = express.Router();
 usuarioRouter.get('/obtenerUsuario' ,getUsuario);
 
 //Ruta para crear crear usuarios
-usuarioRouter.post('/crearUsuario ',postUsuario);
+usuarioRouter.post('/crearUsuario',postUsuario);
 
 //Ruta para modificar usuarios por su id -> identificador unico
 
