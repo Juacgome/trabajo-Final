@@ -12,7 +12,7 @@ const usuarioSchema = new schema({
         required: true
 
     },
-    Correo: {
+    correo: {
         type: String,
         required: true
     },
@@ -26,7 +26,7 @@ const usuarioSchema = new schema({
 // yo quiero enviar la plantilla (schema) a nuestra base de datos
 // crear nuestro modelo
 
-const usuarioModel = mongoose.model('usuario', usuarioSchema);
+const usuarioModel = mongoose.model('usuario',usuarioSchema);
 
 //exportamos nuestro modelo
 export default usuarioModel;

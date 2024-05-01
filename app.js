@@ -35,5 +35,5 @@ app.get('/',(req,res) =>{
 //4.INICIALIZAMOS EL SERVIDOR
 
 app.listen(puerto, () => {
-    console.log('hola soy Juan,El servidor está escuchando en http://localhost:${puerto}'); 
+    console.log(`hola soy Juan,El servidor está escuchando en http://localhost:${puerto}`); 
 });
