@@ -5,6 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <!--link de mi archivo javascript-->
+
+
+
+
 </head>
 <body>
     <h1>BIENVENIDO A LA PAGINA DE REGISTRO</h1>
@@ -46,24 +52,28 @@
 <section>
 
     <h3>PAGINA DE REGISTRO</h3>
-<p> Para continuar a continuación completa la información solicitada</p>
+<p> Para continuar registra la información solicitada</p>
+<form id="formulario">
 
     <label>¿Cual es su Nombre?</label>
     <!--label, es el que hace que aparezca la pregunta antes del rectangulo donde el usuario coloca la edad-->
     <input type="text" id="nombre" 
-    placeholder="Ingrese su Nombre">
+    placeholder="Ingrese Nombre Completo" id="nombre">
         
-    <label>¿Cual es su edad?</label>
+    <label>¿Cual es su contrasena?</label>
     <!--label, es el que hace que aparezca la pregunta antes del rectangulo donde el usuario coloca la edad-->
-    <input type="number" id="edadInput" 
-    placeholder="Ingrese su edad">
+    <input type="text" id="contrasena" 
+    placeholder="Ingrese su contraseña" id="contrasena">
     
     <label>¿Cual es su correo electronico?</label>
     <!--label, es el que hace que aparezca la pregunta antes del rectangulo donde el usuario coloca la edad-->
-    <input type="text" id="correoInput" 
-    placeholder="Ingrese su correo electronico">
+    <input type="text" id="correo" 
+    placeholder="Ingrese correo electronico" id="correo">
 
-    <button onclick="verificar()">verificar</button>
+    <button type="submit">verificar</button>
+
+</form>
+    
           
 <span id="mensaje"></span>
 
@@ -100,6 +110,6 @@
 
 </footer>
 
-
+<script src="./Scripts/registro.js" ></script>
 </body>
 </html>

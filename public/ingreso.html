@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <script src="./Scripts/ingreso.js"></script>
 </head>
 <body>
     <h1>PAGINA DE INGRESO</h1>
@@ -23,9 +25,7 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         
-                        <li class="nav-item">
-                            <a class="nav-link" href="./retos.html">Retos</a>
-                        </li>
+                        
                        
 
                     </ul>
@@ -45,16 +45,16 @@
 
 <label>¿Cual es su correo electronico?</label>
 <!--label, es el que hace que aparezca la pregunta antes del rectangulo donde el usuario coloca la edad-->
-<input type="text" id="correoInput" 
-placeholder="Ingrese su correo electronico" >
+<input type="text" id="correo" 
+placeholder="Ingrese correo electronico" id = "correo" >
 
 
 <label>¿Cual es su contraseña?</label>
 <!--label, es el que hace que aparezca la pregunta antes del rectangulo donde el usuario coloca la edad-->
-<input type="number" id="contraseña" 
-placeholder="Ingrese su contraseña" >
+<input type="text" id="contrasena" 
+placeholder="Ingrese su contraseña" id = "contrasena">
 
-<button onclick="verificarEdad()">Verificar</button>
+<button onclick="iniciarSesion()">Ingresar</button>
 
 <footer>
 
